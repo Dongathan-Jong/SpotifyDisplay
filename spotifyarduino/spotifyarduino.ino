@@ -16,12 +16,19 @@ boolean topPlayed = false;
 String lastArtist;
 String lastTrackname;
 
+// CHANGE ALL THESE TO CONTAIN YOUR INFO! 
 char* SSID = "";
 const char* PASSWORD = "";
 const char* CLIENT_ID = "";
 const char* CLIENT_SECRET = "";
 const char* REFRESH_TOKEN = "";
 
+// CHANGE BUTTON PINS HERE
+#define leftButton 10
+#define middleButton 8
+#define rightButton 6
+
+// CHANGE SCREEN PINS HERE
 #define TFT_CS 5
 #define TFT_RST 4
 #define TFT_DC 3
@@ -414,7 +421,7 @@ void checkProgress() {
 }
 
 void checkInput() {
-  if (digitalRead(8) == LOW) {
+  if (digitalRead(middleButton) == LOW) {
     Serial.println("pause/unpause!");
     if (playing) {
       tft.fillRect(70, 100, 20, 20, ST77XX_BLACK);
@@ -429,13 +436,13 @@ void checkInput() {
     }
   }
 
-  if (digitalRead(6) == LOW) {
+  if (digitalRead(rightButton) == LOW) {
     tft.drawBitmap(115, 100, next, 20, 20, ST77XX_GREEN);
     sp.skip();
     tft.drawBitmap(115, 100, next, 20, 20, ST77XX_WHITE);
   }
   
-  if (digitalRead(10) == LOW) {
+  if (digitalRead(leftButton) == LOW) {
     tft.drawBitmap(25, 100, prev, 20, 20, ST77XX_GREEN);
     sp.previous();
     tft.drawBitmap(25, 100, prev, 20, 20, ST77XX_WHITE);
