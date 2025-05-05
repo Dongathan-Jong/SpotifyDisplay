@@ -10,7 +10,7 @@ Ever see one of those Spotify Car Things? They look amazing, and I would love to
 - Shows progress bar in real time
 - You can pause / play / skip / go back with the buttons
 - Runs on 3v3, decently low power consumption
-- Has word warp!!! (makes it so that the song/artist doesn't get cut off and creates a new line)
+- Has word wrap!!! (makes it so that the song/artist doesn't get cut off and creates a new line)
    
 ### Build process
 
