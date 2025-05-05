@@ -16,11 +16,11 @@ boolean topPlayed = false;
 String lastArtist;
 String lastTrackname;
 
-char* SSID = "NETGEAR80";
-const char* PASSWORD = "tinybanana043";
-const char* CLIENT_ID = "79ecbb261a8447bdb6242b1f2e2d8917";
-const char* CLIENT_SECRET = "c5079e6132a64a8ab093b6a83102de54";
-const char* REFRESH_TOKEN = "AQCTq_qs9uRW852th48W_uxMtp1EHJCnxBzfIpw2zPc9Blom1D7WtNz-zh1HaNHYZ_U121pGWsayGA976-hPeOT9Fms0VOtlfyEK8WWkuXla6pjv6O7Jw_SbqiUsOBMVdyw";
+char* SSID = "";
+const char* PASSWORD = "";
+const char* CLIENT_ID = "";
+const char* CLIENT_SECRET = "";
+const char* REFRESH_TOKEN = "";
 
 #define TFT_CS 5
 #define TFT_RST 4
