@@ -35,13 +35,13 @@ Before we start, install these libraries!
 - Adafruit_ST7735  
 - Adafruit_GFX  
 
-Hop over to https://developer.spotify.com/ and click on your profile in the top left and click dashboard.   
-Press create new app and you'll be prompted with this screen:   
+- Hop over to https://developer.spotify.com/ and click on your profile in the top left and click dashboard.   
+- Press create new app and you'll be prompted with this screen:   
 ![image](https://github.com/user-attachments/assets/08ea6cbd-1e50-4130-96ad-a5f4a30cbff7)  
-Name it anything you'd like and give it some random description. Add a random redirect URI for now. (we will change the redirect URI once we plug the ESP32 in)  
-Now, click on your newly created app and copy the client id + client secret and paste it into the code.  
-Upload the code to the ESP and power it on, you should be prompted with a IP address on the screen or in the serial monitor.   
-Head back to the developer page and edit the app, and add in that IP as the callback URI. For example: I have 192.168.1.18 as my IP, the callback URI would be https://192.168.1.18/callback/, make sure to include the last slash!   
+- Name it anything you'd like and give it some random description. Add a random redirect URI for now. (we will change the redirect URI once we plug the ESP32 in)  
+- Now, click on your newly created app and copy the client id + client secret and paste it into the code.  
+- Upload the code to the ESP and power it on, you should be prompted with a IP address on the screen or in the serial monitor.   
+- Head back to the developer page and edit the app, and add in that IP as the callback URI. For example: I have 192.168.1.18 as my IP, the callback URI would be https://192.168.1.18/callback/, make sure to include the last slash!   
 You should be all good to go! Reset the ESP32 again and it should work once you login. Note you do not need to fill out the REFRESH_TOKEN field, it will be filled out by the code once you login!   
 
 
