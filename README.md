@@ -42,7 +42,7 @@ Before we start, install these libraries!
 - Now, click on your newly created app and copy the client id + client secret and paste it into the code.  
 - Upload the code to the ESP and power it on, you should be prompted with a IP address on the screen or in the serial monitor.   
 - Head back to the developer page and edit the app, and add in that IP as the callback URI. For example: I have 192.168.1.18 as my IP, the callback URI would be https://192.168.1.18/callback/, make sure to include the last slash!   
-You should be all good to go! Reset the ESP32 again and it should work once you login. Note you do not need to fill out the REFRESH_TOKEN field, it will be filled out by the code once you login!   
+- You should be all good to go! Reset the ESP32 again and it should work once you login. Note you do not need to fill out the REFRESH_TOKEN field, it will be filled out by the code once you login!   
 
 
 
