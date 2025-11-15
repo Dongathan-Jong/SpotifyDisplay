@@ -17,8 +17,13 @@ Download these parts to use in our CAD!
 * [ESP32](https://grabcad.com/library/wemos-esp32-c3-mini-v1-0-0-1) (download the .step!)
 * [Keyboard Switch](https://grabcad.com/library/outemu-mx-switch-1)
 
-Start by creating a new project, then a new design. In this design, create a new sketch by pressing this button: 
-<img width="53" height="54" alt="image" src="https://github.com/user-attachments/assets/e810bddc-15bb-4efe-8a24-54b16a4da647" />
+Start by creating a new project, then a new design. In this design, click on the upload button in the top left, and upload the downloaded assets above. Once uploaded, drag and drop the screen into your project. 
+Create a new sketch by pressing this button:   
+<img width="53" height="54" alt="image" src="https://github.com/user-attachments/assets/e810bddc-15bb-4efe-8a24-54b16a4da647" />  
+
+Select the plane you want to work on (XY plane)  
+Create a rectangle by pressing the button to the right of where the sketch button used to be and create a 50x70mm rectangle:   
+<img width="800" height="571" alt="image" src="https://github.com/user-attachments/assets/2fe1a258-9618-4f2b-a35c-0544265ea5e4" />
 
 
 ## Spotify API setup
