@@ -58,23 +58,23 @@ Create a new sketch on the very back of the case, and create 4 rectangles:
 * The outer edge of the case 
 * The inside of the case 
 * The port of the ESP
-* The inside of the case with a gap of 2mm
-<img width="686" height="496" alt="Screenshot 2025-11-14 230552" src="https://github.com/user-attachments/assets/39dcf4c5-5e49-45a7-9926-acc2581e639a" />  
+* The inside of the case with a gap of 2mm  
+<img width="686" height="496" alt="Screenshot 2025-11-14 230552" src="https://github.com/user-attachments/assets/39dcf4c5-5e49-45a7-9926-acc2581e639a" />    
+ 
+Next, create two small lines here:  
+<img width="931" height="170" alt="Screenshot 2025-11-14 230742" src="https://github.com/user-attachments/assets/add702f8-8166-4601-bcf5-38a92df062a5" />   
 
-Next, create two small lines here: 
-<img width="931" height="170" alt="Screenshot 2025-11-14 230742" src="https://github.com/user-attachments/assets/add702f8-8166-4601-bcf5-38a92df062a5" />  
-
-Extrude everything but the charging hole 2mm, and extrude the 2mm gap 4mm with the exclusion of the bottom edge: (blue = 2mm, red = 4mm) Make sure the operation on extrude is "New Body"! After the first extrude, the sketch will dissapear. You can go to the sketch folder under browser and change the visibility to view it again. 
-<img width="537" height="406" alt="Screenshot 2025-11-14 230853" src="https://github.com/user-attachments/assets/440675bb-cdc5-42a4-b70e-4b699655a3fc" />  
-<img width="304" height="86" alt="Screenshot 2025-11-14 231058" src="https://github.com/user-attachments/assets/db656d51-4fce-4a0f-9953-62347857105d" />  
+Extrude everything but the charging hole 2mm, and extrude the 2mm gap 4mm with the exclusion of the bottom edge: (blue = 2mm, red = 4mm) Make sure the operation on extrude is "New Body"! After the first extrude, the sketch will dissapear. You can go to the sketch folder under browser and change the visibility to view it again.  
+<img width="537" height="406" alt="Screenshot 2025-11-14 230853" src="https://github.com/user-attachments/assets/440675bb-cdc5-42a4-b70e-4b699655a3fc" />   
+<img width="304" height="86" alt="Screenshot 2025-11-14 231058" src="https://github.com/user-attachments/assets/db656d51-4fce-4a0f-9953-62347857105d" />   
 You should be left with something like this:  
 <img width="843" height="598" alt="Screenshot 2025-11-14 231236" src="https://github.com/user-attachments/assets/350f0240-8dd2-43f5-9b7d-ada1a82df13d" />  
 Thats all for the bottom of the case, You are ready to add keyboard switch holes! Move to the top of the case, and head over to https://kbplate.ai03.com/ and paste in ```["a","b","c"]```. Hit download DXF on the bottom, and upload that into Fusion. Drag and drop the DXF anywhere, and use free rotate so that it is parallel with the top of the case. Next, use the point to point move method to get it centered like so:   
-<img width="624" height="455" alt="Screenshot 2025-11-14 232237" src="https://github.com/user-attachments/assets/04ef7fb9-0136-4e71-8be3-0d79c50f6bb0" />  
-Finally, extrude the 3 keyswitch holes so that they cut into the case. Your final product should like like so: 
-<img width="746" height="590" alt="Screenshot 2025-11-14 232447" src="https://github.com/user-attachments/assets/a17e7617-1560-4fe2-bb25-67af32232b44" />  
-<img width="504" height="406" alt="Screenshot 2025-11-14 232515" src="https://github.com/user-attachments/assets/3789fc38-cfc0-4bf2-be0e-3e8868a65e2b" />  
-Thats it for the case! Next, we will work on the software and API setup: 
+<img width="624" height="455" alt="Screenshot 2025-11-14 232237" src="https://github.com/user-attachments/assets/04ef7fb9-0136-4e71-8be3-0d79c50f6bb0" />   
+Finally, extrude the 3 keyswitch holes so that they cut into the case. Your final product should like like so:   
+<img width="746" height="590" alt="Screenshot 2025-11-14 232447" src="https://github.com/user-attachments/assets/a17e7617-1560-4fe2-bb25-67af32232b44" />   
+<img width="504" height="406" alt="Screenshot 2025-11-14 232515" src="https://github.com/user-attachments/assets/3789fc38-cfc0-4bf2-be0e-3e8868a65e2b" />   
+Thats it for the case! Next, we will work on the software and API setup:  
 
 ## Spotify API setup
 1. Hop over to https://developer.spotify.com/ and click on your profile in the top left and click dashboard.
