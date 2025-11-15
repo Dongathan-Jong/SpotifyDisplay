@@ -36,8 +36,12 @@ Now, let's make this look less ugly :)
 select the top edges as such:   
 <img width="568" height="489" alt="image" src="https://github.com/user-attachments/assets/0881d56d-94ac-4409-8cc6-91b231a59add" />  
 Click fillet under the modify section, and set it to 5mm. This will round out the edges and make it look MUCH nicer.   
-Next, add in the ESP32 you downloaded, right click on the component in the browser and click break link, and disable visibility for the header pins. 
-<img width="434" height="189" alt="Screenshot 2025-11-14 224201" src="https://github.com/user-attachments/assets/16965f70-aab8-45ef-91fc-2c4558d62f39" />
+Next, add in the ESP32 you downloaded, right click on the component in the browser and click break link, and disable visibility for the header pins.   
+<img width="434" height="189" alt="Screenshot 2025-11-14 224201" src="https://github.com/user-attachments/assets/16965f70-aab8-45ef-91fc-2c4558d62f39" />  
+Click 'm', and rotate the ESP32 so that it is in the right orientation, then click the point to point method: 
+<img width="303" height="76" alt="image" src="https://github.com/user-attachments/assets/df33bfd8-e4ee-4029-bf26-d384db18d0fb" />  
+Select the first point as the bottom edge of the ESP32, and the second edge as the center bottom of the inside of the case as such:  
+<img width="637" height="601" alt="Screenshot 2025-11-14 224653" src="https://github.com/user-attachments/assets/0fa6b1eb-f3e2-4be3-ac37-a8b05045dabf" />
 
 
 
