@@ -74,7 +74,7 @@ Thats all for the bottom of the case, You are ready to add keyboard switch holes
 Finally, extrude the 3 keyswitch holes so that they cut into the case. Your final product should like like so: 
 <img width="746" height="590" alt="Screenshot 2025-11-14 232447" src="https://github.com/user-attachments/assets/a17e7617-1560-4fe2-bb25-67af32232b44" />  
 <img width="504" height="406" alt="Screenshot 2025-11-14 232515" src="https://github.com/user-attachments/assets/3789fc38-cfc0-4bf2-be0e-3e8868a65e2b" />  
-
+Thats it for the case! Next, we will work on the software and API setup: 
 
 ## Spotify API setup
 1. Hop over to https://developer.spotify.com/ and click on your profile in the top left and click dashboard.
