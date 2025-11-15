@@ -26,8 +26,12 @@ Create a rectangle by pressing the button to the right of where the sketch butto
 <img width="800" height="571" alt="image" src="https://github.com/user-attachments/assets/2fe1a258-9618-4f2b-a35c-0544265ea5e4" />
 
 Click on that new sketched rectangle and press e, extrude it to 60mm  
-Next, create a new sketch on the front side of the extruded body. Create another rectangle from the edge to toe other edge of the screen: (43.5mm x  38mm)
-<img width="691" height="495" alt="image" src="https://github.com/user-attachments/assets/fb92eccd-2d8b-4abd-ad66-e4f1d0b975bb" />
+Next, create a new sketch on the front side of the extruded body. Create another rectangle from the edge to the other edge of the screen: (43.5mm x  38mm)
+<img width="691" height="495" alt="image" src="https://github.com/user-attachments/assets/fb92eccd-2d8b-4abd-ad66-e4f1d0b975bb" />  
+Extrude that so that it turns into a hole through the case.  
+Now, go to the other side (opposite of screen) and we will bore out the case, create another sketch and make it 5mm smaller on each edge (40x60)  
+<img width="726" height="537" alt="image" src="https://github.com/user-attachments/assets/275779eb-92f6-41b3-967d-e23158808b62" />
+
 
 
 
