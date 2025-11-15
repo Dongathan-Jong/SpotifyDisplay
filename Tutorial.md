@@ -34,8 +34,10 @@ Now, go to the other side (opposite of screen) and we will bore out the case, cr
 Extrude this so that there is 2mm left on the screen part, (58mm)  
 Now, let's make this look less ugly :)
 select the top edges as such:   
-<img width="568" height="489" alt="image" src="https://github.com/user-attachments/assets/0881d56d-94ac-4409-8cc6-91b231a59add" />
-
+<img width="568" height="489" alt="image" src="https://github.com/user-attachments/assets/0881d56d-94ac-4409-8cc6-91b231a59add" />  
+Click fillet under the modify section, and set it to 5mm. This will round out the edges and make it look MUCH nicer.   
+Next, add in the ESP32 you downloaded, right click on the component in the browser and click break link, and disable visibility for the header pins. 
+<img width="434" height="189" alt="Screenshot 2025-11-14 224201" src="https://github.com/user-attachments/assets/16965f70-aab8-45ef-91fc-2c4558d62f39" />
 
 
 
