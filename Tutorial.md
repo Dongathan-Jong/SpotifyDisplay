@@ -25,6 +25,11 @@ Select the plane you want to work on (XY plane)
 Create a rectangle by pressing the button to the right of where the sketch button used to be and create a 50x70mm rectangle:   
 <img width="800" height="571" alt="image" src="https://github.com/user-attachments/assets/2fe1a258-9618-4f2b-a35c-0544265ea5e4" />
 
+Click on that new sketched rectangle and press e, extrude it to 60mm  
+Next, create a new sketch on the front side of the extruded body. Create another rectangle from the edge to toe other edge of the screen: (43.5mm x  38mm)
+<img width="691" height="495" alt="image" src="https://github.com/user-attachments/assets/fb92eccd-2d8b-4abd-ad66-e4f1d0b975bb" />
+
+
 
 ## Spotify API setup
 1. Hop over to https://developer.spotify.com/ and click on your profile in the top left and click dashboard.
