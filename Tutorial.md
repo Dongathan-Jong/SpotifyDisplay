@@ -18,6 +18,8 @@ Download these parts to use in our CAD!
 * [Keyboard Switch](https://grabcad.com/library/outemu-mx-switch-1)
 
 Start by creating a new project, then a new design. In this design, create a new sketch by pressing this button: 
+<img width="53" height="54" alt="image" src="https://github.com/user-attachments/assets/e810bddc-15bb-4efe-8a24-54b16a4da647" />
+
 
 ## Spotify API setup
 1. Hop over to https://developer.spotify.com/ and click on your profile in the top left and click dashboard.
