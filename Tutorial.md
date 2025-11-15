@@ -41,7 +41,13 @@ Next, add in the ESP32 you downloaded, right click on the component in the brows
 Click 'm', and rotate the ESP32 so that it is in the right orientation, then click the point to point method: 
 <img width="303" height="76" alt="image" src="https://github.com/user-attachments/assets/df33bfd8-e4ee-4029-bf26-d384db18d0fb" />  
 Select the first point as the bottom edge of the ESP32, and the second edge as the center bottom of the inside of the case as such:  
-<img width="637" height="601" alt="Screenshot 2025-11-14 224653" src="https://github.com/user-attachments/assets/0fa6b1eb-f3e2-4be3-ac37-a8b05045dabf" />
+<img width="637" height="601" alt="Screenshot 2025-11-14 224653" src="https://github.com/user-attachments/assets/0fa6b1eb-f3e2-4be3-ac37-a8b05045dabf" />  
+Now, we will work on the inside of the case. To get a better look into the middle, go under inspect and click on "Section Analysis": 
+<img width="296" height="355" alt="Screenshot 2025-11-14 224919" src="https://github.com/user-attachments/assets/0a9a491e-f17d-478a-a4cc-2d881b9b07a4" />  
+Place it on the top of the case and drawg it down until you can see into the case. It should look like such: 
+<img width="762" height="649" alt="Screenshot 2025-11-14 225111" src="https://github.com/user-attachments/assets/f1ccd331-546c-4619-a077-1dbf33a99342" />  
+
+
 
 
 
