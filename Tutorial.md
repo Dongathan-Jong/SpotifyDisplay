@@ -52,9 +52,23 @@ Extrude the sketch 4mm and fillet the bottom side so that there are no overhangs
 <img width="754" height="670" alt="Screenshot 2025-11-14 225737" src="https://github.com/user-attachments/assets/a721ed74-3021-4f3c-9224-a16639833317" />  
 This next part is optional, but highly recommended. Create a small lip so that the ESP can't escape vertically  
 <img width="646" height="262" alt="image" src="https://github.com/user-attachments/assets/d20d7bc4-5cf6-4e18-859a-19fbf19e1e94" />  
-Thats it for the insides! Go back to your browser and under the Analysis folder, delete the Section Analysis you created.
+Thats it for the insides! Go back to your browser and under the Analysis folder, delete the Section Analysis you created.  
 
+Create a new sketch on the very back of the case, and create 4 rectangles: 
+* The outer edge of the case 
+* The inside of the case 
+* The port of the ESP
+* The inside of the case with a gap of 2mm
+<img width="686" height="496" alt="Screenshot 2025-11-14 230552" src="https://github.com/user-attachments/assets/39dcf4c5-5e49-45a7-9926-acc2581e639a" />  
 
+Next, create two small lines here: 
+<img width="931" height="170" alt="Screenshot 2025-11-14 230742" src="https://github.com/user-attachments/assets/add702f8-8166-4601-bcf5-38a92df062a5" />  
+
+Extrude everything but the charging hole 2mm, and extrude the 2mm gap 4mm with the exclusion of the bottom edge: (blue = 2mm, red = 4mm) Make sure the operation on extrude is "New Body"! After the first extrude, the sketch will dissapear. You can go to the sketch folder under browser and change the visibility to view it again. 
+<img width="537" height="406" alt="Screenshot 2025-11-14 230853" src="https://github.com/user-attachments/assets/440675bb-cdc5-42a4-b70e-4b699655a3fc" />  
+<img width="304" height="86" alt="Screenshot 2025-11-14 231058" src="https://github.com/user-attachments/assets/db656d51-4fce-4a0f-9953-62347857105d" />  
+You should be left with something like this:  
+<img width="843" height="598" alt="Screenshot 2025-11-14 231236" src="https://github.com/user-attachments/assets/350f0240-8dd2-43f5-9b7d-ada1a82df13d" />  
 
 ## Spotify API setup
 1. Hop over to https://developer.spotify.com/ and click on your profile in the top left and click dashboard.
