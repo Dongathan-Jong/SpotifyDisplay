@@ -1,6 +1,6 @@
 # Spotify Display
 ![IMG_0356](https://github.com/user-attachments/assets/8f077db9-e3f1-42a3-9775-0f6178f8bcea)
-### What is it / Inspiration
+### Inspiration
 
 Ever see one of those Spotify Car Things? They look amazing, and I would love to have one... Only problem is that they discontinued it and now costs upwards of $200. Why not make one myself?   
 
