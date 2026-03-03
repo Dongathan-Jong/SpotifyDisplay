@@ -27,10 +27,10 @@ You can connect the screen relatively any way you would like, but you can change
 ![image](https://github.com/user-attachments/assets/98197ecd-a51a-48e5-ac5b-82ddde55e18d)
 
 
-As for the buttons, you can change the GPIO pins as well. Note that the LED pin for the c3 mini is 7 and the button is 9, so those basically cannot be used.   
+As for the buttons, you can change the GPIO pins as well. Note that the LED pin for the c3 mini is 7 and the button is 9, so those basically cannot be used.    
 ![image](https://github.com/user-attachments/assets/a3ef2cc7-8dde-4f3d-aa97-271c0134608c)  
 
-Wiring: 
+Wiring:   
 <img width="833" height="371" alt="image" src="https://github.com/user-attachments/assets/274b3d8a-bbb2-4830-9c64-db775a2c2f51" />  
 
 
